@@ -3,7 +3,7 @@ module.exports = {
   env:{
     customKey: 'customValue',
   },
-  basePath: '.dist',
+  basePath: '/dist',
   compress: true,
   async redirects() {
     return[
