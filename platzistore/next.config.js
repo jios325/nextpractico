@@ -1,17 +1,6 @@
 module.exports = {
   reactStrictMode: true,
-  env:{
-    customKey: 'customValue',
+  images: {
+    domains: ['api.lorem.space', 'placeimg.com', 'wixmp.com', 'romapy'],
   },
-  basePath: '/dist',
-  compress: true,
-  async redirects() {
-    return[
-      {
-        source: '/hola',
-        destination: '/hello',
-        permanent: true,
-      }
-    ]
-  }
 }
